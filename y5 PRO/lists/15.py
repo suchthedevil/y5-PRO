@@ -1,0 +1,1 @@
+def vyhod(zoznam,hodnota):

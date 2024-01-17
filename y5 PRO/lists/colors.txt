@@ -1,0 +1,5 @@
+yellow yellow blue yellow yellow
+yellow #ff1ff1 None blue yellow
+blue None red None blue
+yellow blue (35,147,85) blue yellow
+yellow yellow blue yellow yellow

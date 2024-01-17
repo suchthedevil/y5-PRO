@@ -1,0 +1,5 @@
+jedna, dva tri
+styri,pat, sest
+nieco 
+254
+oython

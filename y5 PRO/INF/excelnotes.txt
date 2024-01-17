@@ -1,0 +1,8 @@
+Excel notes
+-conditional formatting: fill in the whole row if condition in one cell is met -> =$J19="nieco"
+										   ^
+COUNTA(range) -> counts all non-empty cells in the given range
+
+FIND(find_text, within_text, [start_num]) -> returns the index of a string within a cell (indexes are counted from 1 in excel)
+
+VLOOKUP(value,range,TRUE/FALSE) -> left column must consist of the values that contain the known value 

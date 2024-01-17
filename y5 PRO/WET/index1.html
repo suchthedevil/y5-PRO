@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stranka</title>
+        <style>
+            table, th, td{
+                border: 2px solid ;
+                border-color: black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Lekcie HTML</h1>
+        <h3>Lekcia 5-7 (použite číslovaný zoznam)</h3>
+
+        <ol type="I" start="5">
+            <li><u>Formatovanie textu</u>
+                <ul style="list-style-type: square;">
+                    <li><h6>Najmensi heading</h6></li>
+                    <li><h1>Najvacsi heading</h1></li>
+                    <li>Obycajny <span style="color: red">farebny</span> text</li>
+                    <li><s>preciarknuty</s> text a dolezity <i><b>kurzivou</b></i></li>
+                    <li>Vzorec vody je <mark>H<sub>2</sub>O</mark></li>
+                </ul>
+            </li>
+            <li>
+                <u>Odkazy</u>
+                <ul>
+                    <li>Obrazkovy odkaz v novom okne na stranku gooogle.sk: <a href="google.sk"><img src="logo.webp" width="40" height="30"></a></li>
+                    <li>Odkaz na stranku <a href="empty.html" target="_blank">empty.html</a> Tato stranka sa nachadza vo vasom priecinku</li>
+                </ul>
+            </li>
+            <li>
+                <u>Tabulky</u><br><br>
+                <table>
+                    <tr>
+                        <th>Krajiny EU</th>
+                        <th>Pocet</th>
+                    </tr>
+                    <tr>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" alt="" height="50" width="80"><br><img src="https://cdn.britannica.com/08/6408-004-405E272F/Flag-Belgium.jpg" alt="" height="50" width="80"></td>
+                    <td>2</td>
+                    </tr>
+                </table>
+                </ul>
+            </li>
+        </ol>
+        <br><br>
+
+        <table>
+            <tr>
+                <th colspan="2">Meno a preizvisko</th>
+                <th>Trieda</th>
+                <th>Mobil</th>
+                <th>Mail</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Janko</td>
+                <td rowspan="2" >Kampos</td>
+                <td rowspan="2">V.A</td>
+                <td>90596123</td>
+                <td rowspan="2">janko@gbas.sk</td>
+            </tr>
+            <tr>
+                <td>90275489</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Filip</td>
+                <td rowspan="3" >Papso</td>
+                <td rowspan="3">IV.A</td>
+                <td>90874567</td>
+                <td>filip@gbas.sk</td>
+            </tr>
+            <tr>
+                <td>90225487</td>
+                <td rowspan="2">filip2@gbas.sk</td>
+            </tr>
+            <tr>
+                <td>90748574</td>
+            </tr>
+        </table>
+    </body>
+</html>

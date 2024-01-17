@@ -1,0 +1,8 @@
+TOP G: Gombarska,
+S: Kampos, Kamposova, Kolcun, Ockova, Oswald, Steiner, Zaborsky, Paulik, 
+A: Bartos, Bielikova, Bosanska, Brosinger, Gombarsky(kokot), Lukasikova, Makovicka, Buknova, Ukropova, 
+B: Dobrotova, Dadova, Jureckova, Lojdova, Merchant, Sadlon, Stankovianska, Goethova, Brvenikova, Francuzova,
+C: Hunora, Katanova, Lamosova, Libic, Micanova, Qazizada,  
+L: Babikova, Jergus, Hornicek, Jandurova, Nagyova, Stanova, Vantarova, 
+
+NEPOZNAME: Bielkova, Bobakova, Pavlaskova, Petrek, 

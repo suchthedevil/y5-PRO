@@ -1,0 +1,117 @@
+
+.navbar{
+    background-color: #303030;
+    align-self: center;
+    margin: auto;
+    margin-top: 2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #888585;
+    color: black !important;
+    border-radius: 5px;
+  }
+
+.active{
+    font-weight: 800;
+}
+
+body{
+    background-color: white;
+    background-image: url(../IMG/Computer-Chip-CPU-4K-Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    background-color: #e8f4f8;
+    text-align: justify;
+}
+
+
+.intro p{
+   padding: 0px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+#last{
+    margin-bottom: 0px; 
+    padding-bottom: 1em;
+}
+
+.intro_img img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    float:right;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.gallery{
+    background-color: #e8f4f8;
+
+
+
+}
+h1{
+    text-align: center;
+}
+
+
+#bioinf{
+    color: white;
+    background-image: url(../IMG/13\ june\ 2014.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text p{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1em;
+}
+.images{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+}
+.images img{
+    max-width: 300px;
+    height: auto;
+    border-style: double;
+    border-width: 5px;
+    
+}
+
+.tabulka{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: none;
+      padding: 0px !important;
+    }
+    #obal{
+        padding: 0px !important;
+    }
+    .navbar{
+        margin-top: 0px;
+    }
+    .d-flex{
+        flex-wrap: wrap-reverse;
+    }
+
+  }

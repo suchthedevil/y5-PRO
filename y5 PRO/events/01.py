@@ -7,5 +7,6 @@ def click(event):
     canvas.create_text(event.x,event.y,text=f"({event.x},{event.y})")
 
 
+
 canvas.bind('<Button-1>', click)
 tkinter.mainloop()

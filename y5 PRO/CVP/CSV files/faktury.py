@@ -1,5 +1,5 @@
 import json
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 file = open("CVP/CSV files/faktury_BB.json", 'r', encoding="utf8")
 data = json.load(file)
@@ -17,31 +17,42 @@ for entry in data:
             subject_per_year[entry['IČO']][year] = [0]*9
             subject_per_year[entry['IČO']][year][int(str(cena)[0])-1] += 1
     else:
-        subject_per_year[entry['IČO']] = {year: [0]*9}
+        subject_per_year[entry['IČO']] = {year: [0]*9, 'name': entry['Dodávateľ']}
         subject_per_year[entry['IČO']][year][int(str(cena)[0])-1] += 1
 
 def plot_graph(ico, year):
     if year == 'all':
         years_occurence = [0]*9
         for c in subject_per_year[ico].values():
-            for i in range(9):
-                years_occurence[i] += c[i]
+            if type(c) == int:
+                for i in range(9):
+                    years_occurence[i] += c[i]
     else:
         years_occurence = subject_per_year[ico][year]
-    plt.bar([1,2,3,4,5,6,7,8,9],years_occurence)
-    plt.show()
+   # plt.bar([1,2,3,4,5,6,7,8,9],years_occurence)
+   # plt.show()
     
 def find_deviation(ico):
     dev = 0
     years_occurence = [0]*9
     for c in subject_per_year[ico].values():
-        for i in range(9):
-            years_occurence[i] += c[i]
+        if type(c) == int:
+            for i in range(9):
+                years_occurence[i] += c[i]
+    real_distribution = []
     if 0 not in years_occurence:
-        real_distribution = [i/sum(years_occurence) for i in years_occurence]
+        for i in range(9):
+            dist_current = years_occurence[i]/sum(years_occurence)
+            if dist_current >= 0.5:
+                pass
+            else:
+                real_distribution.append(years_occurence[i]/sum(years_occurence))
+    if len(real_distribution) == 9:
         for i in range(9):
             dev += abs(real_distribution[i] - benford_distributoion[i])
-    return dev
+        return dev
+    else:
+        return 0
 
 deviations = {}
 for ico in subject_per_year.keys():
@@ -49,7 +60,11 @@ for ico in subject_per_year.keys():
 
 deviations_sorted = dict(sorted(deviations.items(), key=lambda x: x[1]))
     
-for i in range(10):
-    print(deviations_sorted.popitem())
+k = 0
+for ico, value in deviations_sorted.items():
+    print(ico, subject_per_year[ico]['name'],value)
+    if k == 10:
+        break
+    
 
-plot_graph('00416045   ', 'all')
+#plot_graph('36442151   ', 'all')

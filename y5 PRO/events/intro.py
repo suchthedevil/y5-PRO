@@ -27,7 +27,8 @@ def klik(event):
 
 def tahanie(event):
     zoznam.extend([event.x, event.y])
-    canvas.coords(ciara, zoznam)
+    print(zoznam)
+    canvas.coords(ciara, zoznam[0], zoznam[1], zoznam[-2], zoznam[-1])
 
 canvas.bind('<Button-1>', klik)
 canvas.bind('<B1-Motion>', tahanie)

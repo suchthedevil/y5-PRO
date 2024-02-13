@@ -1,4 +1,4 @@
-"""
+
 import tkinter
 
 c = tkinter.Canvas(height=500,width=800)
@@ -11,6 +11,9 @@ obd = c.create_rectangle(x1+120,y1+100,x1+220,y1+150,fill='blue',tag='obd')
 def klik(e):
     global dx, dy, klik, aky
     dx,dy = None, None
+    print(c.find_overlapping(e.x,e.y,e.x,e.y))
+    print(c.bbox('current'))
+    print(c.find_withtag('current'))
     for prvok in stv, obd:
         sur = c.coords(prvok)
         if sur[0] <= e.x <= sur[2] and sur[1] <= e.y <= sur[3]:
@@ -23,12 +26,11 @@ def tahanie(e):
     if dx != None:
         sirka, vyska = abs(sur[0]-sur[2]), abs(sur[1]-sur[3])
         c.coords(aky, e.x-dx, e.y-dy, e.x-dx+sirka,e.y-dy+vyska)
-        
 
 c.bind('<1>', klik)
 c.bind('<B1-Motion>',tahanie)
 tkinter.mainloop()
-"""
+
 
 """
 import tkinter, random
@@ -55,14 +57,6 @@ c.bind('<Button-1>', hover)
 #c.bind('<Motion>',hover)
 tkinter.mainloop()
 """
-import tkinter, random
-
-c = tkinter.Canvas(height=500,width=800)
-c.pack()
-
-dices = tkinter.PhotoImage(file="dices.png").subsample(3,3)
-c.create_image(400,250,image=dices)
-tkinter.mainloop()
 
 
 

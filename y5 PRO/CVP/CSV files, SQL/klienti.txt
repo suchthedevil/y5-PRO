@@ -1,0 +1,89 @@
+Hubčík Martin	2013-07-18	8,61	984 03	Lučenec
+Lehotský Martin	1998-07-02	23,65	977 01	Brezno
+Záňová Laura	1981-06-25	40,67	969 01	Banská Štiavnica
+Baleková Viktória	1998-05-30	23,74	974 09	Banská Bystrica
+Bečka Peter	1995-07-27	26,58	960 01	Zvolen
+Mikuš Ivan	2002-04-26	19,84	974 01	Banská Bystrica
+Dudášová Anna	2007-01-04	15,15	969 01	Banská Štiavnica
+Bombiak Igor	1989-02-27	33,00	960 01	Zvolen
+Turac Martin	2020-11-19	1,27	974 01	Banská Bystrica
+Priesil Tomáš	2018-04-30	3,83	977 01	Brezno
+Šuvada Leo	2002-11-04	19,31	960 01	Zvolen
+Hubočan Marek	2002-06-16	19,70	974 11	Banská Bystrica
+Jamriška Matej	1999-09-29	22,41	960 01	Zvolen
+Gábor Sebastián	2004-12-23	17,18	984 01	Lučenec
+Groerová Alexandra	1994-05-25	27,76	984 03	Lučenec
+Sekereš Peter	1993-12-30	28,16	984 01	Lučenec
+Zaťková Petronela	2014-01-29	8,08	974 01	Banská Bystrica
+Hrkel Vladimír	1986-09-18	35,44	974 09	Banská Bystrica
+Szabó Daniel	1998-05-30	23,74	969 01	Banská Štiavnica
+Farkaš Ferdinand	2000-04-26	21,84	974 01	Banská Bystrica
+Alakša Boris	2006-06-26	15,67	969 01	Banská Štiavnica
+Plichta Alan	2002-08-08	19,55	977 01	Brezno
+Ďaďo  Ján	2011-10-10	10,38	960 01	Zvolen
+Hurtala Marek	2010-08-09	11,55	977 01	Brezno
+Reinish Tomáš	2017-10-18	4,36	977 01	Brezno
+Urban Denis	1983-10-06	38,39	984 01	Lučenec
+Krškala Roman	2008-12-04	13,23	969 01	Banská Štiavnica
+Vozatár Martin	2006-08-19	15,52	984 01	Lučenec
+Hubočan Dominik	2009-02-23	13,01	977 01	Brezno
+Bečka Andrej	2001-02-14	21,04	960 01	Zvolen
+Bencúr Tomáš	2017-04-17	4,86	977 01	Brezno
+Polák Matúš	2012-11-18	9,28	974 04	Banská Bystrica
+Čelárová  Natália	2020-08-06	1,56	974 01	Banská Bystrica
+Suľa Matúš	1997-03-03	24,98	969 01	Banská Štiavnica
+Hubočan Markus	1991-03-14	30,95	984 01	Lučenec
+Cimrák Jozef	2009-04-26	12,84	974 09	Banská Bystrica
+Dibdiak Jakub	2005-01-04	17,15	969 01	Banská Štiavnica
+Dibdiak Dominik	2001-02-08	21,05	984 01	Lučenec
+Priesol Tomáš	1989-10-19	32,36	960 01	Zvolen
+Fatal Alfonz	2007-11-08	14,30	960 01	Zvolen
+Butvinová  Petra	2011-07-28	10,58	984 03	Lučenec
+Košťál  Adrián	2008-07-27	13,58	977 01	Brezno
+Kubačka Jakub	2014-08-02	7,57	969 01	Banská Štiavnica
+Jankovič Filip	1981-07-04	40,65	974 09	Banská Bystrica
+Mikuš Michal	1997-07-12	24,63	960 01	Zvolen
+Červeň Tibor	2012-06-03	9,73	974 01	Banská Bystrica
+Urban Dominik	1983-01-26	39,09	969 01	Banská Štiavnica
+Kubašek Matej	2019-11-09	2,30	960 01	Zvolen
+Hurák Oliver	1989-04-08	32,89	974 01	Banská Bystrica
+Havko Tomáš	1985-10-16	36,36	977 01	Brezno
+Rosinský Andrej	2005-08-30	16,49	960 01	Zvolen
+Gracel Filip	2014-06-11	7,71	974 11	Banská Bystrica
+Rosinský Adam	1994-05-30	27,74	960 01	Zvolen
+Kubas Matej	1992-05-06	29,81	984 01	Lučenec
+Plichta Alex	1989-01-27	33,08	984 03	Lučenec
+Osadský Lukas	1995-05-19	26,77	984 01	Lučenec
+Záňová Lenka	2020-03-11	1,96	974 01	Banská Bystrica
+Osadský Andrej	2011-05-02	10,82	974 09	Banská Bystrica
+Reinish Richard	2005-04-16	16,86	969 01	Banská Štiavnica
+Hubčík Kristián	2007-05-21	14,77	974 01	Banská Bystrica
+Sekereš Martin	1996-02-16	26,03	969 01	Banská Štiavnica
+Gracel Sebastián	2015-07-29	6,58	977 01	Brezno
+Lehotský Filip 	2000-07-01	21,66	960 01	Zvolen
+Makúch Samuel	1980-06-05	41,73	977 01	Brezno
+Čelárová  Nina	1987-11-14	34,29	977 01	Brezno
+Jamriška Lukáš	2003-01-19	19,11	984 01	Lučenec
+Brčák Filip	2003-10-22	18,35	969 01	Banská Štiavnica
+Kubek Patrik	2006-01-30	16,08	984 01	Lučenec
+Zaťková Patrícia	2009-04-17	12,86	977 01	Brezno
+Bartoš Tomáš	2000-03-29	21,91	960 01	Zvolen
+Luptáková Adela	1989-08-04	32,56	977 01	Brezno
+Jancek Patrik	2001-02-27	21,00	974 04	Banská Bystrica
+Plichta Adam	2008-05-23	13,76	974 01	Banská Bystrica
+Havlík Maroš	2017-10-04	4,40	969 01	Banská Štiavnica
+Oršuliak Filip	2016-05-23	5,76	984 01	Lučenec
+Bodorík Dominik	1982-08-17	39,53	974 09	Banská Bystrica
+Osadský Lukáš	1987-08-26	34,50	969 01	Banská Štiavnica
+Povala Timotej	1988-06-27	33,67	984 01	Lučenec
+Benčík Marek	2016-09-02	5,49	960 01	Zvolen
+Záňová Lea	1986-11-10	35,30	960 01	Zvolen
+Alakša Branislav	2005-09-12	16,46	969 01	Banská Štiavnica
+Bombiak Ivan	2005-05-23	16,76	984 01	Lučenec
+Vráb Ivan	1980-06-30	41,66	974 09	Banská Bystrica
+Povala Juraj	2018-05-03	3,82	969 01	Banská Štiavnica
+Pšenák Marcel	2008-05-11	13,79	984 01	Lučenec
+Turac Matej	1995-06-21	26,68	960 01	Zvolen
+Groerová Saša	1985-01-20	37,10	960 01	Zvolen
+Bombiak Jozef	2016-09-21	5,43	969 01	Banská Štiavnica
+Janotík  Matej	1985-01-11	37,13	984 01	Lučenec

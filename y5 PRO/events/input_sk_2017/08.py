@@ -20,6 +20,7 @@ def drag(e):
         size = abs(c.coords(which)[2] - c.coords(which)[0])
         c.coords(which,e.x-dx,e.y-dy,e.x-dx+size,e.y-dy+size)
 
+
 c.bind('<1>',click)
 c.bind('<B1-Motion>',drag)
 tkinter.mainloop()

@@ -1,5 +1,5 @@
 import tkinter
-with open('CVP/bludiska.txt','r') as f:
+with open('y5 PRO/CVP/bludiska.txt','r') as f:
     mapy = {}
     for line in f:
         if ":" in line:
@@ -23,7 +23,7 @@ for i, line in enumerate(mapy[number]):
         if ake == 0:
             c.itemconfig(id,fill='black')
         if ake == 2:
-            start = [i,j]
+            start = (i,j)
             c.itemconfig(id, fill='green')
         if ake == 3:
             finish = (i,j)
@@ -35,22 +35,33 @@ for i, line in enumerate(mapy[number]):
 
 win = False
 field = mapy[number]
-visited, curr_path= [start], [start]
+visited, queue= [start], [start]
 bfs_path = {}
-while not win and curr_path:
-    node  = curr_path.pop(0)
+while not win and queue:
+    node  = queue.pop(0)
     for dy,dx in (0,1),(0,-1),(1,0),(-1,0):
-        row, col = node[1]+dy, node[0]+dx
-        next_node = [row,col]
-        try:
-            if next_node not in visited and field[row][col] == 1:
-                curr_path.append(next_node)
-                visited.append(next_node)
-                bfs_path[f"{next_node}"] = node
-                print(bfs_path)
-            elif field[row][col] == 3:
-                win = True
-        except: IndexError
-print(bfs_path)
-            
+        row, col = node[0]+dy, node[1]+dx
+        if row >= 0 and col >= 0:
+            next_node = (row,col)
+            try:
+                if field[row][col] == 3:
+                    bfs_path[next_node] = node 
+                    win = True
+                elif field[row][col] == 1 and next_node not in visited:
+                    queue.append(next_node)
+                    visited.append(next_node)
+                    bfs_path[next_node] = node        #create an adjacency list (dictionary)
+            except: IndexError           
+node = finish
+solution = [finish]
+while node != start:
+    solution.insert(0,bfs_path[node])
+    node = bfs_path[node]
+solution.remove(start)
+solution.remove(finish)
+print(solution)
+for n in solution:
+    c.itemconfig(f's{n[0]}{n[1]}', fill='yellow')
+    c.after(100)
+    c.update()       
 tkinter.mainloop()

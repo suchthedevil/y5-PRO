@@ -40,8 +40,4 @@ def BFS(d):
             solution.append(key)
     print(solution)
 
-        
-
-
-
 BFS(dungeon)

@@ -1,4 +1,4 @@
-with open("ziaci.txt","r",encoding="utf8") as sub:
+with open("y5 PRO/CVP/ziaci.txt","r",encoding="utf8") as sub:
     predmety = sub.readline().rstrip().split()
     mena, priemery, znamky = [], [], []
     for line in sub:

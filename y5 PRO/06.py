@@ -10,7 +10,7 @@ def vypis_subor(nazov):
             c.create_text(x,y,text=line,anchor="w",font=("Calibri",30))
             y += 40
 
-vypis_subor("06.py")
+vypis_subor("y5 PRO/06.py")
 
 tkinter.mainloop()
 

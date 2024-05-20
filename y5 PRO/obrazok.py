@@ -19,7 +19,7 @@ with open("cotuje.txt", 'r') as sub:
             farba = ''
 """   
 
-with open("cotuje.txt", 'r') as sub:
+with open("y5 PRO/cotuje.txt", 'r') as sub:
     x,y,farba = 0,0,''
     for j,line in enumerate(sub):
         for i in range(0,len(line)-1,6):

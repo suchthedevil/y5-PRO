@@ -1,6 +1,6 @@
 import csv
 
-sub = open("CVP/CSV files/naklady.csv",encoding="utf-8-sig")
+sub = open("y5 PRO/CVP/CSV files, SQL/naklady.csv",encoding="utf-8-sig")
 file2 = csv.reader(sub)
 dic, new_dic = {}, {}
 for line in file2:

@@ -27,5 +27,5 @@ def tajnicka(subor,hidden):
             for l,k in enumerate(slova[i]):
                 c.create_rectangle(x-(index-l-1)*30,y,x-(index-l)*30,y+30)
             y += 30
-tajnicka("CVP/tajn.txt","no")
+tajnicka("y5 PRO/CVP/tajn.txt","no")
 tkinter.mainloop()

@@ -15,8 +15,6 @@ def zisti_dlzky(tab):
             return False
     return True
 
-
-
 #Funkcia dopln(tab) doplní do vstupnej tabuľky do každého riadka minimálny počet None tak, aby mali všetky riadky rovnakú dĺžku.
 def dopln(tab):
     dlzka = 0
@@ -29,10 +27,11 @@ def dopln(tab):
             row.extend([None]*kolko)
     print(tab)
 
-
 #Funkcia zisti(tab1, tab2) zistí, či majú dve vstupné tabuľky úplne rovnaké rozmery, t. j. majú rovnaký počet rovnakodlhých riadkov.
 
-tab1 = [[5, 6], [1, 2, 3], [4]]
+tab1 = [[5, 6, 0, 4], 
+        [1, 2, 3, 2], 
+        [4, 5, 7, 1]]
 tab2 = [[0, 0], [0, 0, 0], [0]]
 def zisti(tab1, tab2):
     for i in range(len(tab1)):
@@ -40,5 +39,14 @@ def zisti(tab1, tab2):
             return False
     return True
 
-print(zisti(tab1,tab2))
+def invert_matrix(m):
+    result = []
+    for i in range(len(m[0])):
+        row = []
+        for j in range(len(m)):
+            row.append(m[j][i])
+        result.append(row)
+    for r in result:
+        print(r)
 
+invert_matrix(tab1)

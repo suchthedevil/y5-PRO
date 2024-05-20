@@ -24,7 +24,7 @@ while True:
             c.create_rectangle(x,y-300,x+30,y-300-(h-300), outline="",fill="red",tags="stlpec")
         x += 50
     c.update()
-    c.after(100)
+    c.after(50)
     c.delete("stlpec")
 
 tkinter.mainloop()

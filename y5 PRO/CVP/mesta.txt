@@ -1,0 +1,39 @@
+Komárno,Bratislava,125,0:54
+Komárno,Nové Zámky,31,0:20
+Nové Zámky,Nitra,39,0:25
+Nitra,Trnava,47,0:30
+Trnava,Bratislava,56,0:20
+Bratislava,Kúty,61,0:30
+Kúty,Nové Mesto nad Váhom,76,0:41
+Nové Mesto nad Váhom,Trnava,64,0:30
+Nové Mesto nad Váhom,Prievidza,82,1:01
+Prievidza,Nitra,80,1:10
+Nové Zámky,Levice,55,0:33
+Levice,Nitra,46,0:28
+Prievidza,Žilina,61,0:41
+Žilina,Nové Mesto nad Váhom,99,0:47
+Nitra,Zvolen,102,0:55
+Zvolen,Levice,72,0:56
+Žilina,Ružomberok,63,0:52
+Ružomberok,Banská Bystrica,54,0:38
+Banská Bystrica,Prievidza,62,0:44
+Banská Bystrica,Zvolen,23,0:14
+Levice,Lučenec,108,1:20
+Lučenec,Zvolen,58,0:53
+Banská Bystrica,Brezno,44,0:26
+Ružomberok,Hybe,42,0:27
+Hybe,Brezno,43,0:31
+Hybe,Poprad,41,0:23
+Brezno,Telgárt,47,0:42
+Telgárt,Poprad,32,0:35
+Telgárt,Rožňava,53,0:49
+Lučenec,Rožňava,89,1:03
+Poprad,Stará Ľubovňa,48,0:50
+Rožňava,Košice,68,0:59
+Košice,Prešov,38,0:19
+Prešov,Stará Ľubovňa,63,1:01
+Prešov,Poprad,80,0:57
+Košice,Michalovce,60,0:55
+Prešov,Humenné,71,1:03
+Humenné,Michalovce,27,0:24
+Humenné,Snina,22,0:19

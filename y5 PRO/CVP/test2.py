@@ -10,7 +10,7 @@ def nsd(a,b):
             delitel = i
     return delitel
 
-with open("CVP/zlomky.txt","r") as f:
+with open("y5 PRO/CVP/zlomky.txt","r") as f:
     for line in f:
         menovatele, citatele, men_unique = [],[],[]
         vysledne = 0

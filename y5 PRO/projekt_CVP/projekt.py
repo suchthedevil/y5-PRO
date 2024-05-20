@@ -86,5 +86,4 @@ def solve_word_search(source_file):
             out += solved[s:s+int(i)] + " "
             s += int(i)
         print(out)
-
 solve_word_search("projekt_CVP/osemsmerovka 12x12.txt")

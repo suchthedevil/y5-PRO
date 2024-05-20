@@ -1,4 +1,4 @@
-def nsd(a,b):
+def gcf(a,b):
     while a%b != 0:
         zv = a%b
         a = b
@@ -22,9 +22,6 @@ with open("CVP/cisla_gcf.txt","r") as sub:
 
 """
             
-with open("CVP/cisla_gcf.txt","r") as sub:
-    for line in sub:
-        line = line.rstrip()
-        cisla = [int(x) for x in line.split()]
-    while len(cisla) != 1:
-        cisla = [nsd(cisla[0],cisla[1])] + cisla[2:]
+print(gcf(8,12))
+    
+    

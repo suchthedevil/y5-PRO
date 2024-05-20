@@ -14,8 +14,6 @@ with open('sub.txt', encoding='utf8') as t:
     for riadok in t:
         print(riadok.rstrip())
 
-
-
 t.read() #precita cely subor naraz
 t.read(15) #precita 15 znakov
 

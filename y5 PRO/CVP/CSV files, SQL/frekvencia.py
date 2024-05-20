@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-sub = open("CVP/CSV files/populacia.csv",encoding="utf-8-sig")
+sub = open("y5 PRO/CVP/CSV files, SQL/populacia.csv",encoding="utf-8-sig")
 file = csv.reader(sub)
 
 dic = {}

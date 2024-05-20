@@ -4,7 +4,7 @@ def prvo(cislo):
             return False
     return True
 
-with open("CVP/cisla.txt","r") as sub:
+with open("y5 PRO/CVP/cisla.txt","r") as sub:
     for line in sub:
         cislo = int(line.rstrip())
         rozklad = f'{cislo}= '
